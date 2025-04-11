@@ -1,11 +1,9 @@
 body {
     background-color: #e6f2ff;
-    background-image: url("a-recycling-symbol-crafted-from-brown-paper-sits-amidst-vibrant-green-leaves-on-a-textured-blue-surface-photo.jpeg");
-    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Winky Rough", sans-serif;
 }
  
 header {
@@ -20,10 +18,14 @@ header a {
     color: white;
     text-decoration: none;
 }
+
+header, .navok {
+    position: fixed;
+}
  
 .navok {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     background-color: #99ccff;
     text-align: center;
     padding: 10px;
@@ -34,14 +36,15 @@ header a {
     font-weight: bold;
     text-decoration: none;
     text-align: center;
+    
 }
- 
 .tarolo {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr  ;
     gap: 20px;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
 }
  
 .szoveg {
@@ -49,24 +52,28 @@ header a {
 }
  
 .kepek img {
-    width: 100%;
-    height: auto;
+    width: 400px;
+    height:300px;
     border-radius: 20px;
     border: 5px solid #cce6ff;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    
 }
+
+
  
 footer {
     background-color: #003366;
     color: white;
     text-align: center;
-    padding: 15px;
-    margin-top: 20px;
+    padding: 20px;
+    font-size: px;
 }
  
 p {
     text-align: justify;
     font-weight: bold;
+    text-align: center;
 }
  
 h2, h3 {
@@ -75,11 +82,11 @@ h2, h3 {
  
 @media screen and (max-width: 800px) {
     .tarolo {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr ;
     }
  
     .navok {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr  ;
     }
  
     .kepek img {
