@@ -5,7 +5,7 @@
   }
   body {
     font-family: Arial, sans-serif;
-    background-color: #afa68c; 
+    background-color: #664e05; 
     color: #344b31; 
   }
     header {
@@ -37,13 +37,13 @@
     .container h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #faccac;
+    color: #307c29;
   }
   
   .container p {
     font-size: 1.2rem;
     line-height: 1.6;
-    color: #e6c9b5;
+    color: #64c25b;
   }
 
   
