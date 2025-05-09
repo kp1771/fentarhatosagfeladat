@@ -25,13 +25,18 @@ header a {
     text-align: center;
     padding: 10px;
 }
+
+.navok link {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0;
+}
  
 .navok a {
     color: #7e0000;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
-   
 }
 .tarolo {
     display: grid;
@@ -76,6 +81,7 @@ p {
 h2, h3 , p {
     color: #da4906;
 }
+
  
 @media screen and (max-width: 800px) {
     .tarolo {
