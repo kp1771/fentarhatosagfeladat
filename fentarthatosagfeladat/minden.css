@@ -5,7 +5,7 @@
   }
   body {
     font-family: Arial, sans-serif;
-    background-color: #664e05; 
+    background-color: #c7a07a; 
     color: #344b31; 
   }
     header {
@@ -18,10 +18,10 @@
     font-size: 2.5rem;
   }
    footer {
-    background-color: #a5e49d; 
+    background-color: #6b8661; 
     padding: 20px;
     text-align: center;
-    color: #0a5807;
+    color: #2b492b;
   }
     footer p {
     font-size: 1.2rem;
