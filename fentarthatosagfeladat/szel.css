@@ -7,7 +7,7 @@ body {
 }
  
 header {
-    background-color: #003366;
+    background-color: #7e0000;
     color: white;
     text-align: center;
     padding: 20px;
@@ -21,13 +21,13 @@ header a {
 .navok {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    background-color: #99ccff;
+    background-color: #da4906;
     text-align: center;
     padding: 10px;
 }
  
 .navok a {
-    color: #003366;
+    color: #7e0000;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
@@ -44,7 +44,7 @@ header a {
 .szoveg {
     padding: 10px;
     border-radius: 20px;
-    border: 5px solid #cce6ff;
+    border: 5px solid #da4906;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
  
@@ -52,15 +52,13 @@ header a {
     width: 400px;
     height:300px;
     border-radius: 20px;
-    border: 5px solid #cce6ff;
+    border: 5px solid #da4906;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
    
 }
- 
- 
- 
+
 footer {
-    background-color: #da4906;
+    background-color: #7e0000;
     color: white;
     text-align: center;
     padding: 20px;
@@ -72,7 +70,7 @@ p {
     font-weight: bold;
     text-align: center;
     border-radius: 20px;
-    border: 5px solid #da4906;
+    border: 5px solid #7e0000;
 }
  
 h2, h3 , p {
