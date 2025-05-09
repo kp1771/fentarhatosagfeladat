@@ -1,0 +1,104 @@
+body {
+    background-color: #F5F5DC; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: "Winky Rough", sans-serif;
+}
+
+header {
+    background-color: #8B1A1A; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 32px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.navok {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #D8C8A6; 
+    text-align: center;
+    padding: 10px; 
+}
+
+.navok a {
+    color: #8B1A1A; 
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    font-size: 35px;
+}
+
+.tarolo {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+}
+
+.szoveg {
+    padding: 10px;
+    border-radius: 20px;
+    border: 5px solid #F2D0A4; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.kepek img {
+    width: 450px;
+    height: 350px;
+    border-radius: 20px;
+    border: 5px solid #F2D0A4; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: #8B1A1A; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+p{
+border-color: #F2D0A4;
+font-size: 25px;
+text-align: left;
+}
+header{
+
+    font-size: 45px;
+}
+h2{
+    font-size: 35px;
+}
+h3{
+    font-size: 30px;
+}
+footer{
+font-size: 35px;
+}
+h2, h3, p {
+    color: #8B1A1A; 
+}
+
+
+@media screen and (max-width: 800px) {
+    .tarolo {
+        grid-template-columns: 1fr;
+    }
+
+    .navok {
+        grid-template-columns: 1fr;
+    }
+
+    .kepek img {
+        height: auto;
+        width: 100%;
+    }
+}
