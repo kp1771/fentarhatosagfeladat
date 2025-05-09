@@ -33,8 +33,13 @@ header a {
     text-decoration: none;
     text-align: center;
     font-size: 35px;
+    transition: all 0.3s ease;
 }
 
+.navok a:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+  }
 .tarolo {
     display: grid;
     grid-template-columns: 1fr;
