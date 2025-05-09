@@ -3,7 +3,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
-    font-family: "Winky Rough", sans-serif;
+    font-family: "Tagesschrift", system-ui;
 }
 
 header {
@@ -86,8 +86,6 @@ font-size: 35px;
 h2, h3, p {
     color: #8B1A1A; 
 }
-
-
 @media screen and (max-width: 800px) {
     .tarolo {
         grid-template-columns: 1fr;
