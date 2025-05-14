@@ -26,9 +26,13 @@ header a {
     padding: 10px;
 }
 
+li {
+    list-style-type: none;
+}
+
 .navok link {
     text-decoration: none;
-    list-style: none;
+    
     padding-left: 0;
 }
  
