@@ -24,15 +24,11 @@ header a {
     background-color: #da4906;
     text-align: center;
     padding: 10px;
-}
-
-li {
     list-style-type: none;
 }
 
 .navok link {
     text-decoration: none;
-    
     padding-left: 0;
 }
  
@@ -41,7 +37,18 @@ li {
     font-weight: bold;
     text-decoration: none;
     text-align: center;
+    transition: all 0.3s ease;
 }
+
+.navok a:hover {
+  color: white;
+  background-color: #7e0000;
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
 .tarolo {
     display: grid;
     grid-template-columns: 1fr  ;
@@ -58,8 +65,8 @@ li {
 }
  
 .kepek img {
-    width: 400px;
-    height:300px;
+    width: 600px;
+    height:500px;
     border-radius: 20px;
     border: 5px solid #da4906;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
