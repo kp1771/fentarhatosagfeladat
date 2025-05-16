@@ -21,7 +21,7 @@ header a {
 
 .navok {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     background-color: #D8C8A6; 
     text-align: center;
     padding: 10px; 
